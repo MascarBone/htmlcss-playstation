@@ -9,6 +9,36 @@ body {
     background-color: black;
 }
 
+
+#bg-jumbo-returnal {
+    background-image: url('../img/jumbo-bg.png');
+    background-size:cover;
+    background-position-x: center;
+
+}
+.jumbo {
+    height: 50vw;
+}
+.my-rounded-20 {
+    border-radius: 20px;
+}
+.my-thumb {
+    border: 2px solid blue;
+    /* padding: 5px; */
+    /* padding: 6px; */
+}
+
+.my-thumb__image {
+    border: 2px solid transparent;
+    overflow: hidden;
+}
+
+.my-height {
+    height: 100%;
+}
+
+
+
 .nav-item {
     padding: 0 0.4rem;
 }
