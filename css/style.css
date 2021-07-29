@@ -22,8 +22,13 @@ body {
     padding: 0 0.4rem;
 }
 
+.my_bg-jumbo {    
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 .jumbo {
-    height: 600px;
+    height: 700px;
 }
 .jumbo__img {
     width: 65%;
@@ -41,8 +46,17 @@ body {
     border: 2px solid transparent;
     overflow: hidden;
 }
-
-
+.my_accessory {
+    border-bottom: 2px solid transparent;
+    opacity: 65%;
+}
+.my_accessory img {
+    width: 70%;
+}
+.my_accessory:hover {
+    opacity: 1;
+    border-color: rgb(64, 149, 218);
+}
 
 @media screen and (min-width:992px) {
     
@@ -54,11 +68,10 @@ body {
     }
 }
 
+#my_bg-jumbo-itt {    
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+}
 
-#bg-jumbo-returnal {
+#my_bg-jumbo-returnal {
     background-image: url('../img/jumbo-bg.png');
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position-x: center;
-
 }
