@@ -42,7 +42,9 @@
                     <ul class="navbar-nav justify-content-around me-auto mb-2 mb-lg-0">
                         <li class="nav-item dropdown">
                             <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <span class="text-dark">Giochi</span><i class="ms-1 align-middle fas fa-chevron-down"></i>
+                                <span class="text-dark">Giochi</span>
+                                <img class="ms-2 my_xs-logo" src="img/chevron-down-solid.svg" alt="">
+                                <img class="ms-2 my_xs-logo my_d-none" src="img/chevron-down-solid-hover.svg" alt="">
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
@@ -90,20 +92,23 @@
                         </li>
                     </ul>
                     <!-- Destra della navbar, contenente il menu, il button e la search -->
-                    <form class="d-flex align-items-center">
-                        <ul class="navbar-nav justify-content-around me-auto mb-2 mb-lg-0">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <span class="text-dark">My Playstation</span><i class="ms-1 align-middle fas fa-chevron-down"></i>
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <button class="btn rounded-pill text-white my_bg-grey" type="submit">Accedi</button>
-                        <i class="ms-1 fas fa-search"></i>
-                      </form>              
+                    
+                    <ul class="navbar-nav align-items-center mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="text-dark">My Playstation</span><i class="ms-1 align-middle fas fa-chevron-down"></i>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <button class="btn rounded-pill text-white my_bg-grey" type="submit">Accedi</button>
+                        </li>
+                        <li>
+                            <img class="ms-1 my_sm-logo" src="img/lens.svg" alt="search icon">
+                        </li>                            
+                    </ul>        
                 
                 </div>
             </div>
@@ -549,11 +554,11 @@
                 <div class="row gx-0 gy-5 text-white">
                     <!-- Logo Sony e scelta continente -->
                     <div class="col-12 col-lg-6">
-                        <div class="my_footer-logo mb-5">                            
+                        <div class="my_lg-logo mb-5">                            
                             <img class="my_w-100" src="img/ps-footer.svg" alt="logo sony">
                         </div>
                         <div class="d-flex align-items-center">
-                            <img class="my_footer-globe me-3" src="img/language-globe.svg" alt="simbolo globo">
+                            <img class="my_sm-logo me-3" src="img/language-globe.svg" alt="simbolo globo">
                             <p class="m-0">Country / Region: Italy</p>
                         </div>
                     </div>
@@ -592,7 +597,7 @@
                     </div>
                     <!-- Sony Interactive Entertainment logo e disclaimer -->
                     <div class="col-12 col-lg-6">
-                        <div class="my_footer-sie mb-2">
+                        <div class="my_xl-logo mb-2">
                             <img class="img-fluid" src="img/sie-logo.svg" alt="Sony Interactive Entertainment logo">
                         </div>
                         <p>Website &copy;2021 Sony Interactive Entertainment Europe Limited. Tutti i contenuti, nomi dei giochi, nomi commerciali e?o di abbigliamento, marchi registrati, grafica e immagini associati sono marchi registrati e?o materiale protetto da copyright dei rispettivi proprietari. Tutti i diritti riservati. <a class="text-white" href="#">Maggiori info</span></p>

@@ -43,7 +43,6 @@ body {
 .my_jumbo__img {
     width: 70%;
 }
-
 .my_rounded-20 {
     border-radius: 20px;
     overflow: hidden;
@@ -61,21 +60,42 @@ body {
 .my_accessory img {
     width: 70%;
 }
+.my_xs-logo {
+    width: 1rem;
+}
+.my_sm-logo {
+    width: 1.5rem;
+}
+.my_lg-logo {
+    width: 100px;
+}
+.my_xl-logo {
+    width: 200px;
+}
+.my_d-none{
+    display: none;    
+}
+
+#my_bg-jumbo-itt {    
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+}
+
+#my_bg-jumbo-returnal {
+    background-image: url('../img/jumbo-bg.png');
+}
+/* 
+    EFFETTI IN HOVER
+ */
+.nav-link:hover img:first-of-type {
+    display: none;
+}
+.nav-link:hover img:last-of-type {
+    display: inline-block;
+}
 .my_accessory:hover {
     opacity: 1;
     border-color: rgb(64, 149, 218);
 }
-.my_footer-logo {
-    width: 100px;
-}
-.my_footer-globe {
-    width: 1.5rem;
-}
-.my_footer-sie {
-    width: 200px;
-}
-
-
 .nav-item {
     padding: 0 0.4rem;
 }
@@ -93,12 +113,4 @@ body {
     .nav-item {
         padding: 0 0.7rem;
     }
-}
-
-#my_bg-jumbo-itt {    
-    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
-}
-
-#my_bg-jumbo-returnal {
-    background-image: url('../img/jumbo-bg.png');
 }
