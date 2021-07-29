@@ -9,6 +9,9 @@ body {
 .my-h-100{
     height: 100%;
 }
+.my_bg-grey-psplus {
+    background-color: rgb(190, 188, 187);
+}
 .my_bg-grey {
     background-color: rgb(54, 54, 54);
 }
@@ -44,12 +47,9 @@ body {
 }
 .my_thumb {
     border: 2px solid blue;
-    /* padding: 5px; */
-    /* padding: 6px; */
 }
 .my_thumb__image {
     border: 2px solid transparent;
-    /* overflow: hidden; */
 }
 .my_accessory {
     border-bottom: 2px solid transparent;
@@ -79,4 +79,10 @@ body {
 
 #my_bg-jumbo-returnal {
     background-image: url('../img/jumbo-bg.png');
+}
+
+#my_bg-jumbo-psplus {
+    background-image: url('../img/ps-plus-april-monthly-games-featured-image-block.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
 }
