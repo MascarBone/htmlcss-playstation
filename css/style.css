@@ -48,10 +48,10 @@ body {
     overflow: hidden;
 }
 .my_thumb {
-    border: 2px solid blue;
+    border: 2px solid transparent;
 }
 .my_thumb__image {
-    border: 2px solid transparent;
+    border: 3px solid white;
 }
 .my_accessory {
     border-bottom: 2px solid transparent;
@@ -91,6 +91,9 @@ body {
 }
 .nav-link:hover img:last-of-type {
     display: inline-block;
+}
+.my_thumb:hover {
+    border-color: rgb(0, 114, 206);
 }
 .my_accessory:hover {
     opacity: 1;
