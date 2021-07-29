@@ -61,7 +61,7 @@ body {
     width: 70%;
 }
 .my_xs-logo {
-    width: 1rem;
+    width: 0.65rem;
 }
 .my_sm-logo {
     width: 1.5rem;
@@ -97,7 +97,7 @@ body {
     border-color: rgb(64, 149, 218);
 }
 .nav-item {
-    padding: 0 0.4rem;
+    padding: 0 0.35rem;
 }
 @media screen and (min-width:768px) {
     .my_social-img {
