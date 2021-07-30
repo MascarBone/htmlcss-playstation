@@ -11,6 +11,9 @@ body {
 .my_bg-grey-psplus {
     background-color: rgb(190, 188, 187);
 }
+.my_bg-lightgrey-psplus {
+    background-color: rgb(217, 218, 220);
+}
 .my_bg-grey {
     background-color: rgb(54, 54, 54);
 }
@@ -28,6 +31,9 @@ body {
 }
 .my_bg-orange {
     background-color: rgb(205, 61, 15);
+}
+.my_text-blue {
+    color: rgb(58, 109, 230);
 }
 .my_header-logo {
     height: 30px;
